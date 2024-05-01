@@ -14,7 +14,7 @@ public class DemoqaBaseTest {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.remote = "http://localhost:8080/wd/hub";
+        Configuration.remote = "http://127.0.0.1:4444/wd/hub";
     }
 
     void beforeEachSuite() {
